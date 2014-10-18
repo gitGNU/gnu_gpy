@@ -26,3 +26,11 @@
 --------------
 When making changes to the parser in lib/, make sure all tests pass.
 prove -Ilib -vm t/WikiLinkParser.pm
+
+--------------
+<Svetlana> gpy: rss list
+<gpy> Svetlana: [Опубликовано] - https://ru.wikinews.org/w/index.php?title=Special:NewsFeed&feed=atom&categories=%D0%9E%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0%D0%BD%D0%BE&namespace=0&count=30&ordermethod=categoryadd&stablepagesonly=no
+<gpy> ..[Редактируется] - https://ru.wikinews.org/w/index.php?title=Special:NewsFeed&feed=atom&categories=%D0%A0%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%B8%D1%80%D1%83%D0%B5%D1%82%D1%81%D1%8F&namespace=0&count=30&ordermethod=categoryadd&stablepagesonly=no
+<gpy> ..[Рецензия] - https://ru.wikinews.org/w/index.php?title=Special:NewsFeed&feed=atom&categories=%D0%A0%D0%B5%D1%86%D0%B5%D0%BD%D0%B7%D0%B8%D1%8F&namespace=0&count=30&ordermethod=categoryadd&stablepagesonly=no
+
+--------------

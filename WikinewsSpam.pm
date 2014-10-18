@@ -31,7 +31,7 @@ use DateTime::Format::Human::Duration;
 
 
 # Settings. You can edit these.
-my $s_chan = "#wikinews-spam";
+my $s_chan = "#wikinews";
 my %check_period = ( # both in seconds
 'all' => 60*60*24,
 'new' => 60*5,

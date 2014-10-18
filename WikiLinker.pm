@@ -28,8 +28,12 @@ use Data::Dumper;
 use WikiLinkParser;
 
 my %channels_urls = (
-    '#wikinews-spam'      => 'https://en.wikinews.org/w/api.php',
-    '#wikipedia-ru-spam'  => 'https://ru.wikipedia.org/w/api.php',
+    '#wikinews-en'   => 'https://en.wikinews.org/w/api.php',
+    '#wikinews-ru'   => 'https://ru.wikinews.org/w/api.php',
+    '#wikinews'      => 'https://en.wikinews.org/w/api.php',
+    '#wikipedia-ru'  => 'https://ru.wikipedia.org/w/api.php',
+    '#wikipedia-ru2'  => 'https://ru.wikipedia.org/w/api.php',
+    '#wikinews-ko'  =>  'https://ko.wikinews.org/w/api.php',
 );
 my %mw;
 

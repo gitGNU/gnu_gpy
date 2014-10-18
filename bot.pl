@@ -40,11 +40,12 @@ HEREDOC
 
 my $bot = Bot::BasicBot::Pluggable->new(
  
-                    channels => ["#wikinews-spam"],
+                    channels => ["#wikinews", "#wikinews-en", "#wikinews-ru", "#wikipedia-ru", "#wikinews-ko"],
+#                    channels => ["#wikinews-ru"],
                     server   => "irc.gnu.org",
                     port     => "6667",
  
-                    nick     => "wnbot",
+                    nick     => "gpy",
                     altnicks => ["pbot", "pluggable"],
                     username => "bot",
                     name     => "bot http://repo.or.cz/w/gpy.git",
@@ -52,6 +53,8 @@ my $bot = Bot::BasicBot::Pluggable->new(
               );
 
 $bot->load('WikiLinker');
+$bot->load('WikinewsSpam');
+$bot->load('RSS3');
 $bot->run();
 
 #_ _END_ _
